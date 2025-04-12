@@ -1,0 +1,30 @@
+{
+  "cabinet": {
+    "1": {
+      "events": [
+        {
+          "datetime": "2019-07-19T06:01:51+05:00",
+          "description": "Отмена аварии",
+          "event_type": "info",
+          "source": "input_voltage"
+        }
+      ],
+      "state": [
+        {
+          "breaker_input_state": false,
+          "breaker_output_state": false,
+          "cabinet_humidity": 43,
+          "cabinet_temperature": 43,
+          "control_cabinet_open": false,
+          "datetime": "2019-07-19T16:05:30+05:00",
+          "input_voltage": 237,
+          "lightning_protect_l": false,
+          "lightning_protect_n": false,
+          "ups_alarm": false,
+          "ups_battery_mode": false,
+          "ups_ready": false
+        }
+      ]
+    }
+  }
+}
