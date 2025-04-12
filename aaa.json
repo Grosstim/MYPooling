@@ -26,5 +26,107 @@
         }
       ]
     }
+  },
+  "controller_pds": {
+    "1": {
+      "params": [
+        {
+          "calibration_code": [
+            125520,
+            125520,
+            135000,
+            135000
+          ],
+          "datetime": "2019-07-19T13:33:42+05:00",
+          "electronic_stamp": [
+            "e3af",
+            "f4ab"
+          ]
+        }
+      ],
+      "status": [
+        {
+          "crc_fail": true,
+          "datetime": "2019-07-19T16:05:28+05:00",
+          "zero_code": [
+            7108833,
+            7288891,
+            8370309
+          ]
+        }
+      ]
+    },
+    "server": {
+      "stolb-db": {
+        "cpu": [
+          {
+            "cpu_temperature": {
+              "Core0": 64,
+              "Core1": 64,
+              "Core2": 71,
+              "Core3": 64,
+              "Core4": 68,
+              "Core5": 63,
+              "Packageid0": 71
+            },
+            "cpu_usage": {
+              "0": 45,
+              "1": 40,
+              "10": 40,
+              "11": 41,
+              "2": 42,
+              "3": 43,
+              "4": 42,
+              "5": 41,
+              "6": 43,
+              "7": 44,
+              "8": 45,
+              "9": 43,
+              "tot": 42
+            },
+            "datetime": "2019-07-19T16:05:31+05:00",
+            "ram_usage": 52
+          }
+        ],
+        "hdd": [
+          {
+            "datetime": "2019-07-19T15:31:31+05:00",
+            "hdd_free_space_gb": {
+              "/mnt/pkg": 2,
+              "/run": 14,
+              "/run/user/0": 3,
+              "/tmp": 15,
+              "ROOT": 697
+            },
+            "hdd_usage": {
+              "/mnt/pkg": 64,
+              "/run": 10,
+              "/run/user/0": 0,
+              "/tmp": 0,
+              "ROOT": 23
+            }
+          }
+        ],
+        "load": [
+          {
+            "datetime": "2019-07-19T16:05:30+05:00",
+            "load": 6.06738
+          }
+        ],
+        "network": [
+          {
+            "datetime": "2019-07-19T16:05:30+05:00",
+            "rx_usage": {
+              "enp2s0": 623,
+              "wlp1s0": 307
+            },
+            "tx_usage": {
+              "enp2s0": 1235,
+              "wlp1s0": 478
+            }
+          }
+        ]
+      }
+    }
   }
 }
