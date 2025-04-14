@@ -1,0 +1,245 @@
+{
+    "cabinet": {
+        "1": {
+            "events": [
+                {
+                    "datetime": "2025-04-14T09:09:50+05:00",
+                    "description": "Выход включен",
+                    "event_type": "info",
+                    "source": "cooling_heating"
+                }
+            ],
+            "state": [
+                {
+                    "breaker_input_state": false,
+                    "breaker_output_state": false,
+                    "cabinet_humidity": 13,
+                    "cabinet_temperature": 29,
+                    "control_cabinet_open": false,
+                    "datetime": "2025-04-14T11:46:23+05:00",
+                    "input_voltage": 223,
+                    "lightning_protect_l": false,
+                    "lightning_protect_n": false,
+                    "ups_alarm": false,
+                    "ups_battery_mode": false,
+                    "ups_ready": false
+                }
+            ]
+        }
+    },
+    "controller_pds": {
+        "1": {
+            "params": [
+                {
+                    "calibration_code": [
+                        137000,
+                        137000
+                    ],
+                    "datetime": "2025-04-10T17:51:51+05:00",
+                    "electronic_stamp": [
+                        "0514"
+                    ]
+                }
+            ],
+            "status": [
+                {
+                    "crc_fail": true,
+                    "datetime": "2025-04-14T11:46:05+05:00",
+                    "zero_code": [
+                        9301229,
+                        8760258,
+                        5590679
+                    ]
+                }
+            ]
+        },
+        "2": {
+            "params": [
+                {
+                    "calibration_code": [
+                        137000,
+                        137000
+                    ],
+                    "datetime": "2025-04-10T17:51:51+05:00",
+                    "electronic_stamp": [
+                        "1699"
+                    ]
+                }
+            ],
+            "status": [
+                {
+                    "crc_fail": true,
+                    "datetime": "2025-04-14T11:46:17+05:00",
+                    "zero_code": [
+                        7692387,
+                        8082789,
+                        4109877
+                    ]
+                }
+            ]
+        },
+        "3": {
+            "params": [
+                {
+                    "calibration_code": [
+                        150000,
+                        150000
+                    ],
+                    "datetime": "2025-04-10T17:51:51+05:00",
+                    "electronic_stamp": [
+                        "425b"
+                    ]
+                }
+            ],
+            "status": [
+                {
+                    "crc_fail": true,
+                    "datetime": "2025-04-14T11:46:15+05:00",
+                    "zero_code": [
+                        7995388,
+                        8265237,
+                        4131233
+                    ]
+                }
+            ]
+        },
+        "4": {
+            "params": [
+                {
+                    "calibration_code": [
+                        150000,
+                        150000
+                    ],
+                    "datetime": "2025-04-10T17:51:51+05:00",
+                    "electronic_stamp": [
+                        "9f52"
+                    ]
+                }
+            ],
+            "status": [
+                {
+                    "crc_fail": true,
+                    "datetime": "2025-04-14T11:46:13+05:00",
+                    "zero_code": [
+                        8731692,
+                        9475639,
+                        4126815
+                    ]
+                }
+            ]
+        }
+    },
+    "datetime": "2025-04-14T11:47:07+05:00",
+    "external_dimensions": {
+        "1": {
+            "status": [
+                {
+                    "datetime": "2025-04-14T05:51:51+05:00",
+                    "device_id": 2,
+                    "transparency": {
+                        "110.0": 95,
+                        "145.0": 95,
+                        "175.0": 87,
+                        "35.0": 95,
+                        "5.0": 97,
+                        "70.0": 97
+                    }
+                },
+                {
+                    "datetime": "2025-04-14T05:51:51+05:00",
+                    "device_id": 1,
+                    "transparency": {
+                        "110.0": 95,
+                        "145.0": 99,
+                        "175.0": 97,
+                        "35.0": 99,
+                        "5.0": 96,
+                        "70.0": 95
+                    }
+                },
+                {
+                    "datetime": "2025-04-14T05:51:51+05:00",
+                    "device_id": 0,
+                    "transparency": {
+                        "110.0": 94,
+                        "145.0": 96,
+                        "175.0": 99,
+                        "35.0": 91,
+                        "5.0": 93,
+                        "70.0": 93
+                    }
+                }
+            ]
+        }
+    },
+    "server": {
+        "stolb-db": {
+            "cpu": [
+                {
+                    "cpu_temperature": {
+                        "Core 0": 41,
+                        "Core 1": 40,
+                        "Core 2": 40,
+                        "Core 3": 39,
+                        "Core 4": 39,
+                        "Core 5": 40,
+                        "Package id 0": 41
+                    },
+                    "cpu_usage": {
+                        "0": 40,
+                        "1": 25,
+                        "2": 38,
+                        "3": 23,
+                        "4": 27,
+                        "5": 24,
+                        "tot": 30
+                    },
+                    "datetime": "2025-04-14T11:46:25+05:00",
+                    "ram_usage": 53
+                }
+            ],
+            "hdd": [
+                {
+                    "datetime": "2025-04-14T11:17:25+05:00",
+                    "hdd_free_space_gb": {
+                        "/hdd": 1720,
+                        "/mnt/pkg": 11,
+                        "/run": 14,
+                        "/tmp": 14,
+                        "ROOT": 274
+                    },
+                    "hdd_usage": {
+                        "/hdd": 6,
+                        "/mnt/pkg": 53,
+                        "/run": 10,
+                        "/tmp": 7,
+                        "ROOT": 69
+                    }
+                }
+            ],
+            "load": [
+                {
+                    "datetime": "2025-04-14T11:46:22+05:00",
+                    "load": 1.3252
+                }
+            ],
+            "network": [
+                {
+                    "datetime": "2025-04-14T11:46:22+05:00",
+                    "rx_usage": {
+                        "eth0": 0,
+                        "eth1": 0,
+                        "eth2": 0,
+                        "eth5": 0
+                    },
+                    "tx_usage": {
+                        "eth0": 0,
+                        "eth1": 0,
+                        "eth2": 0,
+                        "eth5": 0
+                    }
+                }
+            ]
+        }
+    }
+}
