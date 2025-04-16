@@ -3,21 +3,21 @@
         "1": {
             "events": [
                 {
-                    "datetime": "2025-04-08T11:58:04+05:00",
-                    "description": "Авария (верхний порог)",
-                    "event_type": "alarm",
-                    "source": "cabinet_temperature"
+                    "datetime": "2025-04-16T17:07:50+05:00",
+                    "description": "Выход выключен",
+                    "event_type": "warning",
+                    "source": "cooling_heating"
                 }
             ],
             "state": [
                 {
                     "breaker_input_state": false,
                     "breaker_output_state": false,
-                    "cabinet_humidity": 14,
-                    "cabinet_temperature": 26,
+                    "cabinet_humidity": 13,
+                    "cabinet_temperature": 33,
                     "control_cabinet_open": false,
-                    "datetime": "2025-04-08T14:38:23+05:00",
-                    "input_voltage": 218,
+                    "datetime": "2025-04-16T17:47:32+05:00",
+                    "input_voltage": 219,
                     "lightning_protect_l": false,
                     "lightning_protect_n": false,
                     "ups_alarm": false,
@@ -31,24 +31,24 @@
         "1": {
             "params": [
                 {
-                    "calibration_code": [                    
-                        137000,
-                        137000
+                    "calibration_code": [
+                        141000,
+                        141000
                     ],
-                    "datetime": "2025-04-07T13:36:32+05:00",
+                    "datetime": "2025-04-08T17:20:16+05:00",
                     "electronic_stamp": [
-                        "0514"
+                        "bbb3"
                     ]
                 }
             ],
             "status": [
                 {
                     "crc_fail": true,
-                    "datetime": "2025-04-08T14:38:03+05:00",
+                    "datetime": "2025-04-16T17:47:30+05:00",
                     "zero_code": [
-                        9232586,
-                        8618752,
-                        8972618
+                        8941664,
+                        9646546,
+                        4194659
                     ]
                 }
             ]
@@ -57,23 +57,23 @@
             "params": [
                 {
                     "calibration_code": [
-                        137000,
-                        137000
+                        141000,
+                        141000
                     ],
-                    "datetime": "2025-04-07T13:36:32+05:00",
+                    "datetime": "2025-04-08T17:20:16+05:00",
                     "electronic_stamp": [
-                        "1699"
+                        "b201"
                     ]
                 }
             ],
             "status": [
                 {
                     "crc_fail": true,
-                    "datetime": "2025-04-08T14:38:07+05:00",
+                    "datetime": "2025-04-16T17:47:26+05:00",
                     "zero_code": [
-                        7580072,
-                        7970962,
-                        4233667
+                        9186694,
+                        7973569,
+                        4195382
                     ]
                 }
             ]
@@ -82,23 +82,23 @@
             "params": [
                 {
                     "calibration_code": [
-                        150000,
-                        150000
+                        154000,
+                        154000
                     ],
-                    "datetime": "2025-04-07T13:36:58+05:00",
+                    "datetime": "2025-04-08T17:20:16+05:00",
                     "electronic_stamp": [
-                        "425b"
+                        "60a9"
                     ]
                 }
             ],
             "status": [
                 {
                     "crc_fail": true,
-                    "datetime": "2025-04-08T14:38:12+05:00",
+                    "datetime": "2025-04-16T17:46:27+05:00",
                     "zero_code": [
-                        7870748,
-                        8285256,
-                        4233079
+                        8693069,
+                        9092942,
+                        4197442
                     ]
                 }
             ]
@@ -107,66 +107,66 @@
             "params": [
                 {
                     "calibration_code": [
-                        150000,
-                        150000
+                        154000,
+                        154000
                     ],
-                    "datetime": "2025-04-07T13:36:59+05:00",
+                    "datetime": "2025-04-08T17:20:16+05:00",
                     "electronic_stamp": [
-                        "9f52"
+                        "1d9c"
                     ]
                 }
             ],
             "status": [
                 {
                     "crc_fail": true,
-                    "datetime": "2025-04-08T14:38:11+05:00",
+                    "datetime": "2025-04-16T17:46:27+05:00",
                     "zero_code": [
-                        8583641,
-                        9453564,
-                        4239229
+                        10173532,
+                        9013963,
+                        4197816
                     ]
                 }
             ]
         }
     },
-    "datetime": "2025-04-08T14:38:43+05:00",
+    "datetime": "2025-04-16T17:47:47+05:00",
     "external_dimensions": {
         "1": {
             "status": [
                 {
-                    "datetime": "2025-04-08T11:30:59+05:00",
+                    "datetime": "2025-04-16T17:20:16+05:00",
                     "device_id": 1,
                     "transparency": {
-                        "110.0": 96,
+                        "110.0": 99,
                         "145.0": 100,
-                        "175.0": 97,
-                        "35.0": 99,
-                        "5.0": 95,
-                        "70.0": 95
+                        "175.0": 100,
+                        "35.0": 100,
+                        "5.0": 100,
+                        "70.0": 100
                     }
                 },
                 {
-                    "datetime": "2025-04-08T11:30:59+05:00",
-                    "device_id": 0,
-                    "transparency": {
-                        "110.0": 94,
-                        "145.0": 95,
-                        "175.0": 97,
-                        "35.0": 90,
-                        "5.0": 90,
-                        "70.0": 93
-                    }
-                },
-                {
-                    "datetime": "2025-04-08T11:30:59+05:00",
+                    "datetime": "2025-04-16T17:20:16+05:00",
                     "device_id": 2,
                     "transparency": {
-                        "110.0": 95,
-                        "145.0": 95,
-                        "175.0": 90,
-                        "35.0": 96,
-                        "5.0": 97,
-                        "70.0": 98
+                        "110.0": 99,
+                        "145.0": 98,
+                        "175.0": 100,
+                        "35.0": 99,
+                        "5.0": 90,
+                        "70.0": 97
+                    }
+                },
+                {
+                    "datetime": "2025-04-16T17:20:16+05:00",
+                    "device_id": 0,
+                    "transparency": {
+                        "110.0": 100,
+                        "145.0": 97,
+                        "175.0": 94,
+                        "35.0": 98,
+                        "5.0": 98,
+                        "70.0": 99
                     }
                 }
             ]
@@ -177,59 +177,57 @@
             "cpu": [
                 {
                     "cpu_temperature": {
-                        "Core 0": 38,
-                        "Core 1": 38,
-                        "Core 2": 41,
-                        "Core 3": 37,
-                        "Core 4": 38,
-                        "Core 5": 41,
-                        "Package id 0": 41         
+                        "Core 0": 43,
+                        "Core 1": 46,
+                        "Core 2": 45,
+                        "Core 3": 44,
+                        "Core 4": 44,
+                        "Core 5": 46,
+                        "Package id 0": 47
                     },
                     "cpu_usage": {
                         "0": 32,
                         "1": 30,
-                        "2": 50,
-                        "3": 32,
-                        "4": 27,
-                        "5": 39,
-                        "tot": 35            
+                        "2": 43,
+                        "3": 26,
+                        "4": 32,
+                        "5": 47,
+                        "tot": 35
                     },
-                    "datetime": "2025-04-08T14:38:25+05:00",
-                    "ram_usage": 53
+                    "datetime": "2025-04-16T17:47:33+05:00",
+                    "ram_usage": 54
                 }
             ],
             "hdd": [
                 {
-                    "datetime": "2025-04-08T14:17:25+05:00",
-           
-         "hdd_free_space_gb": {
-                        "/hdd": 1722,
-                        "/mnt/pkg": 11,
+                    "datetime": "2025-04-16T17:17:33+05:00",
+                    "hdd_free_space_gb": {
+                        "/hdd": 1727,
+                        "/mnt/pkg": 10,
                         "/run": 14,
                         "/run/user/0": 3,
                         "/tmp": 14,
-                        "ROOT": 277
+                        "ROOT": 321
                     },
                     "hdd_usage": {
                         "/hdd": 6,
-                        "/mnt/pkg": 52,
+                        "/mnt/pkg": 54,
                         "/run": 10,
                         "/run/user/0": 0,
-                        "/tmp": 7,
-                        "ROOT": 69
+                        "/tmp": 6,
+                        "ROOT": 63
                     }
                 }
             ],
-            "load": [ 
-
+            "load": [
                 {
-                    "datetime": "2025-04-08T14:38:22+05:00",
-                    "load": 2.13232
+                    "datetime": "2025-04-16T17:47:26+05:00",
+                    "load": 3.23975
                 }
             ],
             "network": [
                 {
-                    "datetime": "2025-04-08T14:38:22+05:00",
+                    "datetime": "2025-04-16T17:47:26+05:00",
                     "rx_usage": {
                         "eth0": 0,
                         "eth1": 0,
@@ -247,4 +245,3 @@
         }
     }
 }
-
